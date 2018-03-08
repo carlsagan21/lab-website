@@ -28,7 +28,7 @@
   <header class="site-header collapsed-nav" data-bg-image="">
     <div class="container">
       <div class="header-bar">
-        <a href="index.html" class="branding">
+        <a href="index.php" class="branding">
           <img src="images/logo.png" alt="" class="logo">
           <div class="logo-type">
             <h1 class="site-title">인간본성 및 생물철학 연구실</h1>
@@ -42,19 +42,19 @@
           </button>
           <ul class="menu">
             <li class="home menu-item current-menu-item">
-              <a href="index.html">
+              <a href="index.php">
                 <img src="images/home-icon.png" alt="Home">
               </a>
             </li>
             <li class="menu-item">
-              <a href="about.html">About</a>
+              <a href="about.php">About</a>
             </li>
             <!--<li class="menu-item"><a href="services.html">Services</a></li>-->
             <li class="menu-item">
-              <a href="projects.html">projects</a>
+              <a href="projects.php">projects</a>
             </li>
             <li class="menu-item">
-              <a href="contact.html">Contact</a>
+              <a href="contact.php">Contact</a>
             </li>
           </ul>
         </nav>
@@ -105,7 +105,7 @@
               <img src="images/icon-research-small.png" alt="" class="feature-image">
               <h2 class="feature-title">생물학의 개념적 쟁점들</h2>
               <p></p>
-              <a href="conceptual-issues-of-biology.html" class="button">Learn more</a>
+              <a href="conceptual-issues-of-biology.php" class="button">Learn more</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -113,7 +113,7 @@
               <img src="images/icon-medicine-small.png" alt="" class="feature-image">
               <h2 class="feature-title">도덕적 마음</h2>
               <p></p>
-              <a href="moral-mind.html" class="button">Learn more</a>
+              <a href="moral-mind.php" class="button">Learn more</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -121,7 +121,7 @@
               <img src="images/icon-genetics-small.png" alt="" class="feature-image">
               <h2 class="feature-title">문화 진화</h2>
               <p></p>
-              <a href="cultural-evolution.html" class="button">Learn more</a>
+              <a href="cultural-evolution.php" class="button">Learn more</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -129,7 +129,7 @@
               <img src="images/icon-energy-small.png" alt="" class="feature-image">
               <h2 class="feature-title">사회적 마음</h2>
               <p></p>
-              <a href="social-mind.html" class="button">Learn more</a>
+              <a href="social-mind.php" class="button">Learn more</a>
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@
               <img src="images/icon-research-small.png" alt="" class="feature-image">
               <h2 class="feature-title">진화심리학</h2>
               <p></p>
-              <a href="evolutionary-psychology.html" class="button">Learn more</a>
+              <a href="evolutionary-psychology.php" class="button">Learn more</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -148,7 +148,7 @@
               <img src="images/icon-medicine-small.png" alt="" class="feature-image">
               <h2 class="feature-title">과학과 종교</h2>
               <p></p>
-              <a href="science-and-religion.html" class="button">Learn more</a>
+              <a href="science-and-religion.php" class="button">Learn more</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -156,7 +156,7 @@
               <img src="images/icon-energy-small.png" alt="" class="feature-image">
               <h2 class="feature-title">과학기술학</h2>
               <p></p>
-              <a href="sts.html" class="button">Learn more</a>
+              <a href="sts.php" class="button">Learn more</a>
             </div>
           </div>
         </div>

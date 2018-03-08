@@ -28,7 +28,7 @@
   <header class="site-header" data-bg-image="">
     <div class="container">
       <div class="header-bar">
-        <a href="index.html" class="branding">
+        <a href="index.php" class="branding">
           <img src="images/logo.png" alt="" class="logo">
           <div class="logo-type">
             <h1 class="site-title">인간본성 및 생물철학 연구실</h1>
@@ -39,11 +39,11 @@
         <nav class="main-navigation">
           <button class="menu-toggle"><i class="fa fa-bars"></i></button>
           <ul class="menu">
-            <li class="home menu-item"><a href="index.html"><img src="images/home-icon.png" alt="Home"></a></li>
-            <li class="menu-item"><a href="about.html">About</a></li>
+            <li class="home menu-item"><a href="index.php"><img src="images/home-icon.png" alt="Home"></a></li>
+            <li class="menu-item"><a href="about.php">About</a></li>
             <!--<li class="menu-item"><a href="services.html">Services</a></li>-->
-            <li class="menu-item current-menu-item"><a href="projects.html">Projects</a></li>
-            <li class="menu-item"><a href="contact.html">Contact</a></li>
+            <li class="menu-item current-menu-item"><a href="projects.php">Projects</a></li>
+            <li class="menu-item"><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
 
@@ -62,7 +62,7 @@
   <main class="main-content">
     <div class="fullwidth-block">
       <div class="container">
-        <a href="projects.html" class="button back"><img src="images/arrow-back.png" alt="">Back to projects</a>
+        <a href="projects.php" class="button back"><img src="images/arrow-back.png" alt="">Back to projects</a>
         <div class="row">
           <div class="col-md-6">
             <figure>
@@ -70,13 +70,13 @@
             </figure>
           </div>
           <div class="col-md-6">
-            <h2 class="section-title">생물학의 개념적 쟁점들</h2>
-            <p>첫째, <u><b>현대 진화론의 개념적 쟁점</b></u>들을 이론적으로 다뤄왔다. 그 중에서도 가장 오랫동안 집중해온 세부 주제는 이른바 ‘선택의 단위(unit of selection)
-              문제인데, 다수준 선택(multi-level selection) 이론을 비판적으로 검토하는 작업이 주로 진행되었다. 이런 전문적 연구는 다윈 시리즈 3부작(&lt;다윈의 식탁&gt;,
-              &lt;다윈의 서재&gt;, &lt;다윈의 정원&gt;) 중에서 &lt;다윈의 식탁&gt;과 &lt;다윈의 정원&gt; 형태로 출간되기도 했다. 최근에는 복제자(replicator) 이론과
-              발생계(developmental systems) 이론이 각각 지지하는 형이상학을 비교하는
-              작업도 진행중이다. 관련 성과들은 다음과 같다.
-            </p>
+            <h2 class="section-title">사회적 마음(Social Mind)</h2>
+            <p>넷째, 인간의 사회성에 대한 자연과학적 탐구(진화/심리/뇌과학)를 바탕으로 <u><b>사회성의 자연화(naturalization of sociality)</b></u>를 시도해왔다. 이
+              과정에서 가장 큰 성과 중 하나는 사람의 에고 네트워크(ego-network)의 밀도가 추론 특성(inference style)에 미치는 영향에 대한 사회심리학적 연구를 PLOS ONE에
+              출간한 일이라 할 수 있다. 다른 하나는 인간 사회성에 대한 학제적 연구를 통해 &lt울트라 소셜&gt이라는 단행본을 출간한 일일 것이다. 또한 우리는 사회적 동일성 이론(social
+              identity theory)의 관점에서 인간-기계의 대결이라고 일컬어지는 이세돌-알파고 대국에서 우리가 실제로 경험했던 심리적 위협과 대응 방식에 관한 사회심리학적 실험을 수행했으며,
+              작성된 논문은 현재 관련 저널에 심사 중에 있다. 또한 온라인 네트워크와 오프라인 네트워크의 중첩에 대한 진화·사회심리학적(evolutionary social psychology) 연구도
+              진행했었는데 이 논문도 심사 중에 있다. 일련의 이런 연구들을 통해 나는 집단생활을 하는 인간의 사회성에 대한 새롭고 더 깊은 이해에 도달하고자 한다.</p>
           </div>
         </div>
 
@@ -84,40 +84,39 @@
           <div class="col-md-6">
             <h3>연구 논문</h3>
             <ul class="project-info">
-              <li><u><b>Jang, D.(2017)</b></u>, What Can Cultural Psychology Give to Twenty-First-Century Biology, <i>East
-                Asian Science, Technology and Society: An International Journal</i>, 11:405-409
+              <li>Cha, Y.J. Baek, S., Ahn, G., Lee, H., Lee, B., and <u><b>Jang, D.*</b></u>(under review), Responses to
+                Human Identity Threat from Competition with Machine.
               </li>
-              <li>전진권, <b>장대익*</b>(2017), 「형질집단 선택론의 관점 다원주의에 대한 비판」, 『과학철학』 20권 1호, 1-33.</li>
-              <li>전진권, <b>장대익*</b>(2015), 「포괄적합도 이론 논쟁과 의미론적 문제」, 『과학철학』 18권 1호, 103-128.</li>
-              <li>Chun, J. N., Lim J. M., Kang, Y., Kim, E. H., Shin, Y.-C., Kim, H.-G., <u><b>Jang, D.</b></u>, Kwon,
-                D., Shin, S.-Y., So, I., and Jeon, J.-H.(2014), A network perspective on unraveling the role of TRP
-                channels in biology and disease, <i>Pflügers Archiv - European Journal of Physiology</i>, 466:173-182.
+              <li>Bae, J., Cha, Y.J., Kang, D., and <u><b>Jang, D.*</b></u>(under review), Relational Qualities and
+                Contact Overlaps between Online and Offline Social Networks.
               </li>
-              <li>장대익(2008), 「일반 복제자 이론: 유전자, 밈, 그리고 지향계」, 『과학철학』 11권 1호, 1-33.</li>
-              <li>장대익(2007), 「도킨스 다시 읽기: 복제자, 행위자, 그리고 수혜자」, 『철학사상』 25권, 195-225.</li>
-              <li><u><b>장대익*</b></u>, 최재천(2004), 「생물계의 변혁은 어떻게 일어나는가?」, 『철학과 현실』 60권 1호, 75-98.</li>
-              <li>장대익(2003), 「선택 이론의 개념적 쟁점: 선택의 수준과 단위, 그리고 힘에 관하여」, 『철학연구』 59권(부록), 221-277.</li>
-              <li>장대익(2003), 「유전자에 관한 진실을 찾아서: 이기적 유전자 이론에서 발생계 이론까지」, 『ELSI연구』 1권 1호, 61-83.</li>
+              <li>Hur, J-W., <u><b>Jang, D.</b></u>, Lee, S-H., Kwak, S., and Kwon, J. S.(under review), Winning
+                Enhances Self-esteem: Changes in Psychological Characteristics According to Socioeconomic Status after a
+                General Election.
+              </li>
+              <li>Bae, J., Cha, Y.J., Lee, H., Lee, B., Baek, S., Choi, S., and <u><b>Jang, D.</b></u>*(2017), Social
+                networks and inference about unknown events: A case of the match between Google’s AlphaGo and Sedol
+                Lee., PLoS ONE 12(2): e0171472.doi:10.1371/journal.pone.0171472
+              </li>
             </ul>
           </div>
 
           <div class="col-md-6">
             <h3>학술 발표(일부)</h3>
             <ul class="project-info">
-              <li>Jang, D.(2008), “Modularism from an Evo-Devo Perspective,” International Society for the History,
-                Philosophy, and Social Studies of Biology workshop, Kobe University, Japan, Nov. 5. 2008
+              <li>Cha, Y.J., Baek, S., Lee, H., Lee, B., Ahn, G., and <b>Jang, D.*</b>(2017), “Self-Compartmentalization
+                Matters: The Underlying Process of Social Creativity”, Society for Personality and Social Psychology
+                18th Annual Convention, 21 Jan. 2017, San Antonio, USA.
+              </li>
+              <li>Lee, M.S., Ryu,J., and <b>Jang, D.*</b>(2012), “How they pick out the answer in multiple choice
+                questionnaire: independent-self vs. interdependent-self”, 34th Annual Cognitive Science Conference,
+                August 1-4, 2012, Sapporo, Japan.
               </li>
             </ul>
 
             <h3>연구서</h3>
             <ul class="project-info">
-              <li>장대익(2017), 『다윈의 정원』, 바다출판사 → 세종도서 선정(2017년)</li>
-              <li>장대익(2014), 『다윈의 식탁』(개정증보판), 바다출판사[1판, 2008년, 김영사] → 제27회 한국과학기술도서상 저술상(2009년, 교과부)</li>
-            </ul>
-
-            <h3>미발표원고(manuscripts)</h3>
-            <ul class="project-info">
-              <li>장대익, “진화론적 형이상학 논쟁: 복제자 vs. 발생계”</li>
+              <li>장대익(2017), 『울트라 소셜』, 휴머니스트</li>
             </ul>
           </div>
         </div>

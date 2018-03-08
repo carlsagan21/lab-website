@@ -28,7 +28,7 @@
   <header class="site-header" data-bg-image="">
     <div class="container">
       <div class="header-bar">
-        <a href="index.html" class="branding">
+        <a href="index.php" class="branding">
           <img src="images/logo.png" alt="" class="logo">
           <div class="logo-type">
             <h1 class="site-title">인간본성 및 생물철학 연구실</h1>
@@ -39,11 +39,11 @@
         <nav class="main-navigation">
           <button class="menu-toggle"><i class="fa fa-bars"></i></button>
           <ul class="menu">
-            <li class="home menu-item"><a href="index.html"><img src="images/home-icon.png" alt="Home"></a></li>
-            <li class="menu-item"><a href="about.html">About</a></li>
+            <li class="home menu-item"><a href="index.php"><img src="images/home-icon.png" alt="Home"></a></li>
+            <li class="menu-item"><a href="about.php">About</a></li>
             <!--<li class="menu-item"><a href="services.html">Services</a></li>-->
-            <li class="menu-item current-menu-item"><a href="projects.html">Projects</a></li>
-            <li class="menu-item"><a href="contact.html">Contact</a></li>
+            <li class="menu-item current-menu-item"><a href="projects.php">Projects</a></li>
+            <li class="menu-item"><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
 
@@ -62,7 +62,7 @@
   <main class="main-content">
     <div class="fullwidth-block">
       <div class="container">
-        <a href="projects.html" class="button back"><img src="images/arrow-back.png" alt="">Back to projects</a>
+        <a href="projects.php" class="button back"><img src="images/arrow-back.png" alt="">Back to projects</a>
         <div class="row">
           <div class="col-md-6">
             <figure>
@@ -70,10 +70,11 @@
             </figure>
           </div>
           <div class="col-md-6">
-            <h2 class="section-title">과학기술학(STS)</h2>
-            <p>마지막으로, 생명윤리학, 신경윤리학, 연구윤리 등과 같은 (넓은 의미의) <u><b>과학기술학(science technology studies)적 주제들</b></u>도 연구대상이다.
-              그동안 뇌를 다루는 과학기술이 어떠한 사회적·윤리적·법적 문제들을 만들어낼 수 있는지를 주로 탐구해왔는데, 최근에는 유전자 편집(genome editing)에 대한 인문사회학적 쟁점과 함의에
-              대해 공동 연구를 수행하고 있다.</p>
+            <h2 class="section-title">도덕적 마음(Moral Mind)</h2>
+            <p>둘째, 이타성의 진화론과 도덕 판단의 심리학을 통해 <u><b>인간 도덕성의 특성과 진화</b></u>를 이해하려고 노력해왔다. 연구재단의 지원(2014~2015)으로 수행된 도덕심리학의
+              철학적 함의에 관한 연구는 도덕성의 심리학적 자연화에 관한 국내 최초의 시도라 할만하다. 최근에는 강한 호혜성을 지지하는 것으로 알려진 경제학 실험들을 비판적으로 재검토하는 작업을 수행하고
+              있다. 또한 도덕적 혐오(moral disgust)의 진화에 관한 연구와 도덕 판단과 도덕 균형의 관계에 대한 연구도 수행중이다. 사회적 혐오의 확산에 대한 학제적 연구도 준비 중이다. 연구
+              성과는 다음과 같다.</p>
           </div>
         </div>
 
@@ -81,25 +82,36 @@
           <div class="col-md-6">
             <h3>연구 논문</h3>
             <ul class="project-info">
-              <li>Lee, K-Y., and <u><b>Jang, D.*</b></u>(2013), Ethical and Social Issues Behind Brain-Computer
-                Interface, <i>PROC. OF 2013 IEEE INTERNATIONAL WINTER WORKSHOP ON BRAIN-COMPUTER INTERFACE</i>, 72 ~ 75.
-              </li>
-              <li>장대익(2011),「연구 윤리의 문화적, 적극적, 그리고 창의적 측면에 관하여」,『과학기술학연구』21호, 131-139</li>
-              <li>장대익(2008), 「뇌 탓이오?: 신경윤리학의 쟁점들」, 『철학과 현실』 78권, 137-151.</li>
+              <li>장대익(2013), 「착한 뇌를 찾아서: 내 탓인가, 뇌 탓인가」, 김성일·김채연· 성영신 엮음(2013),『뇌로 통하다』, 21세기 북스, 347-382.</li>
+              <li>장대익(2009), 「다윈 인문학과 인문학의 진화」, 『인문논총』 61권, 3-47.</li>
+              <li>장대익(2005), 「이타성의 진화와 선택의 수준 논쟁: 다수준 선택론이 더 나은가?」, 『과학철학』 8권 1호, 81-113.</li>
             </ul>
-          </div>
 
-          <div class="col-md-6">
             <h3>학술 발표(일부)</h3>
             <ul class="project-info">
-              <li>Jang, D.(2010), "Neuroethics Meets Culture," 2010 society for social studies of science symposium,
-                University of Tokyo, Japan, 26 Aug 2010.
+              <li>Jang, D.(2013), “The Self and the Neuroscience of Morality,” in 2013 Neuroethics International
+                Conference (Neuroethics in Context: East Meets West), Neuro-Humanities Research Group, Seoul, 11 Jan.
+                2013.
+              </li>
+              <li>Jang, D.(2012), “Humanities of Mirror Neurons“, BRC Int’l conference 2012 @Jeju in conjunction with
+                the 5th BRC-UK joint symposium on neuroscience, 27~29, June, 2012, Jeju, 21st Century Frontier R&D
+                program in neuroscience, Brain Research Center.
               </li>
             </ul>
-
+          </div>
+          <div class="col-md-6">
             <h3>연구서</h3>
             <ul class="project-info">
-              <li>장대익, “유전자 가위 기술 비판과 ‘최적성 직관’”</li>
+              <li>홍성욱, 장대익 엮음(2012), 『뇌과학, 경계를 넘다』, 바다출판사</li>
+              <li>홍성욱, 장대익 엮음(2010), 『뇌 속의 인간, 인간 속의 뇌』, 바다출판사</li>
+            </ul>
+
+            <h3>미발표원고(manuscripts)</h3>
+            <ul class="project-info">
+              <li>Ahn, G., and <u><b>Jang, D.*</b></u>, “Do economics experiments really support strong reciprocity?: A
+                critical review of empirical evidence”
+              </li>
+              <li>Jang, D.*, and Lee, M.-S., “On the debate between Haidt vs. Gray in moral psychology”</li>
             </ul>
           </div>
         </div>

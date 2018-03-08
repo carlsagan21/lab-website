@@ -28,7 +28,7 @@
   <header class="site-header" data-bg-image="">
     <div class="container">
       <div class="header-bar">
-        <a href="index.html" class="branding">
+        <a href="index.php" class="branding">
           <img src="images/logo.png" alt="" class="logo">
           <div class="logo-type">
             <h1 class="site-title">인간본성 및 생물철학 연구실</h1>
@@ -39,11 +39,11 @@
         <nav class="main-navigation">
           <button class="menu-toggle"><i class="fa fa-bars"></i></button>
           <ul class="menu">
-            <li class="home menu-item"><a href="index.html"><img src="images/home-icon.png" alt="Home"></a></li>
-            <li class="menu-item"><a href="about.html">About</a></li>
+            <li class="home menu-item"><a href="index.php"><img src="images/home-icon.png" alt="Home"></a></li>
+            <li class="menu-item"><a href="about.php">About</a></li>
             <!--<li class="menu-item"><a href="services.html">Services</a></li>-->
-            <li class="menu-item current-menu-item"><a href="projects.html">Projects</a></li>
-            <li class="menu-item"><a href="contact.html">Contact</a></li>
+            <li class="menu-item current-menu-item"><a href="projects.php">Projects</a></li>
+            <li class="menu-item"><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
 
@@ -62,7 +62,7 @@
   <main class="main-content">
     <div class="fullwidth-block">
       <div class="container">
-        <a href="projects.html" class="button back"><img src="images/arrow-back.png" alt="">Back to projects</a>
+        <a href="projects.php" class="button back"><img src="images/arrow-back.png" alt="">Back to projects</a>
         <div class="row">
           <div class="col-md-6">
             <figure>

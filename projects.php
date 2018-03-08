@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 
-  <title>Services : Science Labs</title>
+  <title>Projects : Science Labs</title>
 
   <!-- Loading third party fonts -->
   <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
   <header class="site-header" data-bg-image="">
     <div class="container">
       <div class="header-bar">
-        <a href="index.html" class="branding">
+        <a href="index.php" class="branding">
           <img src="images/logo.png" alt="" class="logo">
           <div class="logo-type">
             <h1 class="site-title">인간본성 및 생물철학 연구실</h1>
@@ -39,11 +39,11 @@
         <nav class="main-navigation">
           <button class="menu-toggle"><i class="fa fa-bars"></i></button>
           <ul class="menu">
-            <li class="home menu-item"><a href="index.html"><img src="images/home-icon.png" alt="Home"></a></li>
-            <li class="menu-item"><a href="about.html">About</a></li>
+            <li class="home menu-item"><a href="index.php"><img src="images/home-icon.png" alt="Home"></a></li>
+            <li class="menu-item"><a href="about.php">About</a></li>
             <!--<li class="menu-item"><a href="services.html">Services</a></li>-->
-            <li class="menu-item current-menu-item"><a href="projects.html">Projects</a></li>
-            <li class="menu-item"><a href="contact.html">Contact</a></li>
+            <li class="menu-item current-menu-item"><a href="projects.php">Projects</a></li>
+            <li class="menu-item"><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
 
@@ -52,60 +52,81 @@
     </div>
   </header>
 
-  <div class="page-head" data-bg-image="images/page-head-2.jpg">
+  <div class="page-head" data-bg-image="images/page-head-3.jpg">
     <div class="container">
-      <h2 class="page-title">Services</h2>
-      <small>services-desc</small>
+      <h2 class="page-title">Projects</h2>
+      <small>title-desc</small>
     </div>
   </div>
 
   <main class="main-content">
     <div class="fullwidth-block">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <h2 class="section-title">title1</h2>
-            <p>desc1</p>
-          </div>
-          <div class="col-md-4">
-            <h2 class="section-title">title2</h2>
-            <p>desc2</p>
-          </div>
-        </div>
+        <h2 class="section-title">연구 주제와 성과들</h2>
+        <p>desc1</p>
       </div>
     </div>
 
     <div class="fullwidth-block">
       <div class="container">
-        <div class="boxed-icon">
-          <img src="images/icon-research.png" alt="" class="icon">
-          <h3>Research1</h3>
-          <p>research-desc1</p>
+        <div class="project-list">
+          <div class="project">
+            <div class="project-content">
+              <figure class="project-image"><img src="images/project-1.jpg" alt="Project"></figure>
+              <h3 class="project-title">생물학의 개념적 쟁점들</h3>
+              <p>proj-desc1</p>
+              <a href="conceptual-issues-of-biology.php" class="button">Learn more</a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-content">
+              <figure class="project-image"><img src="images/project-2.jpg" alt="Project"></figure>
+              <h3 class="project-title">도덕적 마음(Moral Mind)</h3>
+              <p>proj-desc2</p>
+              <a href="moral-mind.php" class="button">Learn more</a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-content">
+              <figure class="project-image"><img src="images/project-3.jpg" alt="Project"></figure>
+              <h3 class="project-title">문화 진화(Cultural Evolution)</h3>
+              <p>proj-desc3</p>
+              <a href="cultural-evolution.php" class="button">Learn more</a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-content">
+              <figure class="project-image"><img src="images/project-4.jpg" alt="Project"></figure>
+              <h3 class="project-title">사회적 마음(Social Mind)</h3>
+              <p>proj-desc4</p>
+              <a href="social-mind.php" class="button">Learn more</a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-content">
+              <figure class="project-image"><img src="images/project-5.jpg" alt="Project"></figure>
+              <h3 class="project-title">진화심리학(Evolutionary Psychology)</h3>
+              <p>proj-desc5</p>
+              <a href="evolutionary-psychology.php" class="button">Learn more</a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-content">
+              <figure class="project-image"><img src="images/project-6.jpg" alt="Project"></figure>
+              <h3 class="project-title">과학과 종교(Science & Religion)</h3>
+              <p>proj-desc6</p>
+              <a href="science-and-religion.php" class="button">Learn more</a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-content">
+              <figure class="project-image"><img src="images/project-6.jpg" alt="Project"></figure>
+              <h3 class="project-title">과학기술학(STS)</h3>
+              <p>proj-desc7</p>
+              <a href="sts.php" class="button">Learn more</a>
+            </div>
+          </div>
         </div>
-
-        <!--<div class="boxed-icon">-->
-        <!--<img src="images/icon-medicine.png" alt="" class="icon">-->
-        <!--<h3>Research</h3>-->
-        <!--<p>Laborum et dolorum fuga harum quidem rerum facilis expedita distinctio nam libero tempore perspiciatis unde omnis iste laudantium, totam rem aperiam inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> -->
-
-        <!--<p>Nemo enim ipsam voluptatem sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro.</p>-->
-        <!--</div>-->
-
-        <!--<div class="boxed-icon">-->
-        <!--<img src="images/icon-genetics.png" alt="" class="icon">-->
-        <!--<h3>Research</h3>-->
-        <!--<p>Laborum et dolorum fuga harum quidem rerum facilis expedita distinctio nam libero tempore perspiciatis unde omnis iste laudantium, totam rem aperiam inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> -->
-
-        <!--<p>Nemo enim ipsam voluptatem sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro.</p>-->
-        <!--</div>-->
-
-        <!--<div class="boxed-icon">-->
-        <!--<img src="images/icon-energy.png" alt="" class="icon">-->
-        <!--<h3>Research</h3>-->
-        <!--<p>Laborum et dolorum fuga harum quidem rerum facilis expedita distinctio nam libero tempore perspiciatis unde omnis iste laudantium, totam rem aperiam inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> -->
-
-        <!--<p>Nemo enim ipsam voluptatem sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro.</p>-->
-        <!--</div>-->
       </div>
     </div>
 

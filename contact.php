@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 
-  <title>Projects : Science Labs</title>
+  <title>Contact : Science Labs</title>
 
   <!-- Loading third party fonts -->
   <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
   <header class="site-header" data-bg-image="">
     <div class="container">
       <div class="header-bar">
-        <a href="index.html" class="branding">
+        <a href="index.php" class="branding">
           <img src="images/logo.png" alt="" class="logo">
           <div class="logo-type">
             <h1 class="site-title">인간본성 및 생물철학 연구실</h1>
@@ -39,11 +39,11 @@
         <nav class="main-navigation">
           <button class="menu-toggle"><i class="fa fa-bars"></i></button>
           <ul class="menu">
-            <li class="home menu-item"><a href="index.html"><img src="images/home-icon.png" alt="Home"></a></li>
-            <li class="menu-item"><a href="about.html">About</a></li>
+            <li class="home menu-item"><a href="index.php"><img src="images/home-icon.png" alt="Home"></a></li>
+            <li class="menu-item"><a href="about.php">About</a></li>
             <!--<li class="menu-item"><a href="services.html">Services</a></li>-->
-            <li class="menu-item current-menu-item"><a href="projects.html">Projects</a></li>
-            <li class="menu-item"><a href="contact.html">Contact</a></li>
+            <li class="menu-item"><a href="projects.php">Projects</a></li>
+            <li class="menu-item current-menu-item"><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
 
@@ -52,84 +52,64 @@
     </div>
   </header>
 
-  <div class="page-head" data-bg-image="images/page-head-3.jpg">
+  <div class="page-head" data-bg-image="images/page-head-4.jpg">
     <div class="container">
-      <h2 class="page-title">Projects</h2>
-      <small>title-desc</small>
+      <h2 class="page-title">Contact</h2>
+      <small>desc0</small>
     </div>
   </div>
 
   <main class="main-content">
-    <div class="fullwidth-block">
-      <div class="container">
-        <h2 class="section-title">연구 주제와 성과들</h2>
-        <p>desc1</p>
-      </div>
-    </div>
 
     <div class="fullwidth-block">
       <div class="container">
-        <div class="project-list">
-          <div class="project">
-            <div class="project-content">
-              <figure class="project-image"><img src="images/project-1.jpg" alt="Project"></figure>
-              <h3 class="project-title">생물학의 개념적 쟁점들</h3>
-              <p>proj-desc1</p>
-              <a href="conceptual-issues-of-biology.html" class="button">Learn more</a>
+        <div class="map" data-latitude="-6.897789" data-longitude="107.621735">map</div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="boxed-content">
+              <h2 class="section-title">Address</h2>
+              <address>
+                <p>Company Name INC.</p>
+                <p>423 Avenue Street, Chicago, IL 60610</p>
+              </address>
             </div>
           </div>
-          <div class="project">
-            <div class="project-content">
-              <figure class="project-image"><img src="images/project-2.jpg" alt="Project"></figure>
-              <h3 class="project-title">도덕적 마음(Moral Mind)</h3>
-              <p>proj-desc2</p>
-              <a href="moral-mind.html" class="button">Learn more</a>
+          <div class="col-md-4">
+            <div class="boxed-content">
+              <h2 class="section-title">Telephone</h2>
+              <p><strong>Office:</strong> +1 800 321 431</p>
+              <!--<p><strong>Support:</strong> +1 800 903 412</p>-->
             </div>
           </div>
-          <div class="project">
-            <div class="project-content">
-              <figure class="project-image"><img src="images/project-3.jpg" alt="Project"></figure>
-              <h3 class="project-title">문화 진화(Cultural Evolution)</h3>
-              <p>proj-desc3</p>
-              <a href="cultural-evolution.html" class="button">Learn more</a>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-content">
-              <figure class="project-image"><img src="images/project-4.jpg" alt="Project"></figure>
-              <h3 class="project-title">사회적 마음(Social Mind)</h3>
-              <p>proj-desc4</p>
-              <a href="social-mind.html" class="button">Learn more</a>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-content">
-              <figure class="project-image"><img src="images/project-5.jpg" alt="Project"></figure>
-              <h3 class="project-title">진화심리학(Evolutionary Psychology)</h3>
-              <p>proj-desc5</p>
-              <a href="evolutionary-psychology.html" class="button">Learn more</a>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-content">
-              <figure class="project-image"><img src="images/project-6.jpg" alt="Project"></figure>
-              <h3 class="project-title">과학과 종교(Science & Religion)</h3>
-              <p>proj-desc6</p>
-              <a href="science-and-religion.html" class="button">Learn more</a>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-content">
-              <figure class="project-image"><img src="images/project-6.jpg" alt="Project"></figure>
-              <h3 class="project-title">과학기술학(STS)</h3>
-              <p>proj-desc7</p>
-              <a href="sts.html" class="button">Learn more</a>
+          <div class="col-md-4">
+            <div class="boxed-content">
+              <h2 class="section-title">Email</h2>
+              <p><strong>Office:</strong> <a href="mailto:office@companyname.com">office@companyname.com</a></p>
+              <!--<p><strong>Support:</strong> <a href="mailto:support@companyname.com">support@companyname.com</a></p>-->
             </div>
           </div>
         </div>
+
+        <!--<div class="row contact-form">-->
+        <!--<form action="#">-->
+        <!--<div class="col-md-4">-->
+        <!--<p><input type="text" placeholder="Your name..."></p>-->
+        <!--<p><input type="text" placeholder="Email..."></p>-->
+        <!--<p><input type="text" placeholder="Website..."></p>-->
+        <!--</div>-->
+        <!--<div class="col-md-8">-->
+        <!--<p>-->
+        <!--<textarea name="" placeholder="Message"></textarea>-->
+        <!--</p>-->
+        <!--<p class="text-right">-->
+        <!--<input type="submit" value="Send message">-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</form>-->
+        <!--</div>-->
       </div>
     </div>
-
 
     <!--<div class="fullwidth-block" data-bg-color="#edf2f4">-->
     <!--<div class="container">-->
@@ -204,6 +184,7 @@
 </div>
 
 <script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
 <script src="js/plugins.js"></script>
 <script src="js/app.js"></script>
 
